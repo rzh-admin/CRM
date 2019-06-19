@@ -45,7 +45,7 @@ public class UserController extends HttpServlet {
         user.setLoginPwd(loginPwd);*/
         try {
             User user= us.login(loginAct,loginPwd,ip);
-            request.setAttribute("user", user);
+            request.getSession().setAttribute("user", user);
             PrintJson.printJsonFlag(response, true);
         } catch (Exception e) {
             e.printStackTrace();
