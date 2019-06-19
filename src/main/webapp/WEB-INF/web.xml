@@ -4,14 +4,35 @@
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
   </welcome-file-list>
-  
+
+
+  <filter>
+    <filter-name>EncordingFilter</filter-name>
+    <filter-class>com.bjpowernode.settings.web.filter.EncordingFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>EncordingFilter</filter-name>
+    <url-pattern>*.do</url-pattern>
+  </filter-mapping>
+  <filter>
+    <filter-name>LoginFilter</filter-name>
+    <filter-class>com.bjpowernode.settings.web.filter.LoginFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>LoginFilter</filter-name>
+    <url-pattern>*.do</url-pattern>
+    <url-pattern>*.jsp</url-pattern>
+  </filter-mapping>
+
+
+
   <servlet>
-    <servlet-name>xxxController</servlet-name>
-    <servlet-class>xxx.xxxController</servlet-class>
+    <servlet-name>UserController</servlet-name>
+    <servlet-class>com.bjpowernode.settings.web.controller.UserController</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>xxxController</servlet-name>
-    <url-pattern>/xxx/xxx.do</url-pattern>
+    <servlet-name>UserController</servlet-name>
+    <url-pattern>/setting/user/login.do</url-pattern>
     
   </servlet-mapping>
   
