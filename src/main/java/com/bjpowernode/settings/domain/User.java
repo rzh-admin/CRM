@@ -1,4 +1,4 @@
-package com.bjpowernode.settings.donain;
+package com.bjpowernode.settings.domain;
 
 /**
  * Author:任赵辉

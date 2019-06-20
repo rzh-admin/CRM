@@ -1,6 +1,6 @@
 package com.bjpowernode.settings.dao;
 
-import com.bjpowernode.settings.donain.User;
+import com.bjpowernode.settings.domain.User;
 
 import java.util.Map;
 

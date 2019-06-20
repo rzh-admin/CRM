@@ -8,8 +8,9 @@
   
   <typeAliases>
   
-  	<package name="com.bjpowernode.settings.donain"/>
-  	
+  	<package name="com.bjpowernode.settings.domain"/>
+  	<package name="com.bjpowernode.activity.domain"/>
+
   
   </typeAliases>
   
@@ -29,7 +30,8 @@
   <mappers>
    
       <package name="com.bjpowernode.settings.dao"/>
-    
+      <package name="com.bjpowernode.activity.dao"/>
+
   </mappers>
 </configuration>
 

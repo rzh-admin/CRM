@@ -2,7 +2,7 @@ package com.bjpowernode.settings.service.impl;
 
 import com.bjpowernode.exception.LoginException;
 import com.bjpowernode.settings.dao.UserDao;
-import com.bjpowernode.settings.donain.User;
+import com.bjpowernode.settings.domain.User;
 import com.bjpowernode.settings.service.UserService;
 import com.bjpowernode.utils.DateTimeUtil;
 import com.bjpowernode.utils.SqlSessionUtil;

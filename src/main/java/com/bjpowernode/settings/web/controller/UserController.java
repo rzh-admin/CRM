@@ -1,12 +1,11 @@
 package com.bjpowernode.settings.web.controller;
 
-import com.bjpowernode.settings.donain.User;
+import com.bjpowernode.settings.domain.User;
 import com.bjpowernode.settings.service.UserService;
 import com.bjpowernode.settings.service.impl.UserServiceImpl;
 import com.bjpowernode.utils.MD5Util;
 import com.bjpowernode.utils.PrintJson;
 import com.bjpowernode.utils.ServiceFactory;
-import com.bjpowernode.utils.SqlSessionUtil;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;

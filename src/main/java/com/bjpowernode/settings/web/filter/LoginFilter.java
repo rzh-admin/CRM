@@ -1,9 +1,8 @@
 package com.bjpowernode.settings.web.filter;
 
-import com.bjpowernode.settings.donain.User;
+import com.bjpowernode.settings.domain.User;
 
 import javax.servlet.*;
-import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
